@@ -30,7 +30,7 @@ function getBTCBlockchain(params) {
 }
 
 function getETHBlockchain(params) {
-    var address = "0xe668c9020db045da0cbd4de9581ca8d92713cc0d";
+    var address = process.env.REACT_APP_GOOGLE_API_KEY;
     var apiKey = "EK-ckAGC-g5DtN5h-JoNmm";
     //https://api.ethplorer.io/getAddressInfo/address?apiKey=apiKey
 }
